@@ -13,6 +13,17 @@
 @media (max-width: 575.98px) {
     /* xs */
 
+    .nav-pills .nav-link.active{
+      padding-block: 10px ;
+      width: 95%;
+    padding-inline: 5px;
+    background-color: rgba(168, 163, 163, 0.5);
+    transform: translateX(5px);
+    -webkit-transform: translateX(5px);
+    -moz-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    -o-transform: translateX(5px);
+    }
     .navbar-nav li > a::before {
         position: static;
       }
@@ -34,6 +45,8 @@
     -ms-transform: translateX(5px);
     -o-transform: translateX(5px);
       }
+
+     
     header h1{
       font-size: 2rem;
     }
