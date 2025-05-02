@@ -283,6 +283,17 @@ nav .container ul li a {
 .navbar-nav li:hover > a::before {
   width: 80%;
 }
+.nav-pills .nav-link{
+  transition: .3s all ease;
+  -webkit-transition: .3s all ease;
+  -moz-transition: .3s all ease;
+  -ms-transition: .3s all ease;
+  -o-transition: .3s all ease;
+}
+.nav-pills .nav-link.active{
+  background-color: transparent;
+  padding-top: 2px;
+}
 .dropdown-menu a.dropdown-item:hover{
   color: #0078ff;
 
