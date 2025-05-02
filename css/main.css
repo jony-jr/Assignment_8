@@ -481,3 +481,54 @@ nav .container ul li a {
 .card{
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
+/* ------CONTACT-SEC------- */
+.contact-sec h2{
+  position: relative;
+}
+.contact-sec h2::after{
+  content: '';
+  position: absolute;
+  border-bottom: 3px solid #0078ff;
+  width: 20%;
+  bottom: -30%;
+  left: 0;
+}
+
+.contact-sec{
+  background-image: url(../images/overlay-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-color: #0078ff;
+  background-blend-mode: soft-light;  
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+  background-attachment: fixed;
+
+}
+
+.conact-soc-icon{
+
+  cursor: pointer;
+  box-shadow: 0 0 0 3px #0078ff;
+  transition: .3s all ease;
+  -webkit-transition: .3s all ease;
+  -moz-transition: .3s all ease;
+  -ms-transition: .3s all ease;
+  -o-transition: .3s all ease;
+}
+.conact-soc-icon:hover {
+  color: white;
+  box-sizing: content-box;
+  background-color: #0078ff;
+  box-shadow: 0 0 0 3px rgba(0, 119, 255, 0.3);
+}
+
+.contact-boxshadow{
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+/* -----------Footer------------- */
+
+footer{
+  background-color: #0062d3;
+}
