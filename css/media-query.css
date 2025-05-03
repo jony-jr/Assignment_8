@@ -15,6 +15,9 @@
     @keyframes scroll-transition {
       
       0% {
+        background-color:transparent;
+      }
+      0.1111111111111111% {
         background-color: rgba(0, 0, 0, 0.8);
       }
       100% {
