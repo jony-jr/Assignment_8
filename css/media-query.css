@@ -12,6 +12,15 @@
 
 @media (max-width: 575.98px) {
     /* xs */
+    @keyframes scroll-transition {
+      
+      0% {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      100% {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+    }
 
     .nav-pills .nav-link.active{
       padding-block: 10px ;
