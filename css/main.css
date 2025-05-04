@@ -303,9 +303,12 @@ nav .container ul li a {
   text-decoration: none;
   background-color: transparent
 }
-.dropdown-menu {
-  /* background-color: #4e4e4e; */
-  /* color: white; */
+.navbar-toggler:focus {
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 .5px;
+}
+.navbar-toggler {
+  border: 0;
+  padding-inline: 7px
 }
 .dropdown-menu a.dropdown-item{
   padding-inline: 10px;
